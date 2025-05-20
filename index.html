@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>CV – Leurette Ethanael</title>
+    <meta name="author" content="Leurette Ethanael">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: darkgray;
+        }
+
+        header, footer {
+            background-color: lightblue;
+            color: white;
+            padding: 5px;
+			margin: 0px  503px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px 0;
+        }
+
+        header ul,
+        footer ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        header li,
+        footer li {
+            margin-bottom: 10px;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            background: lightgray;
+        }
+
+        aside {
+            flex: 1;
+            min-width: 250px;
+            background: gray;
+            padding: 20px;
+        }
+
+        section {
+            flex: 2;
+            padding: 20px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #333;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+        }
+
+        .exp {
+            margin-bottom: 15px;
+        }
+
+        .periode {
+            font-weight: bold;
+            display: block;
+        }
+
+        .desc {
+            margin-left: 10px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1><span id="prenom">Ethanael</span> <span id="nom">Leurette</span></h1>
+            <ul>
+                <li><strong>Adresse :</strong> 6 rue de la Franche-Comté, 62160 Grenay</li>
+                <li><strong>Téléphone :</strong> 07 49 67 14 60</li>
+                <li><strong>Email :</strong> ethanael.leurette@example.com</li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <aside>
+            <article>
+                <h2>Compétences</h2>
+                <p>Développement web (HTML, CSS, JavaScript)</p>
+            </article>
+
+            <article>
+                <h2>Langues</h2>
+                <p>Français (langue maternelle)<br>
+                   Anglais (intermédiaire)<br>
+                   Allemand (débutant)</p>
+            </article>
+
+            <article>
+                <h2>Centres d’intérêt</h2>
+                <p>Informatique, sport, nature, animaux, voitures</p>
+            </article>
+        </aside>
+
+        <section>
+            <article>
+                <h2>Présentation</h2>
+                <p>Passionné par l'informatique depuis plusieurs années, j’ai appris à coder et à créer divers projets personnels. Je m’informe régulièrement sur les nouvelles technologies pour enrichir mes compétences.</p>
+            </article>
+
+            <article>
+                <h2>Formations & Diplômes</h2>
+                <ul>
+                    <li class="exp">
+                        <span class="periode">2024 - 2025</span>
+                        <span class="desc">Baccalauréat Professionnel – Métiers des transitions énergétiques et numériques</span>
+                    </li>
+                    <li class="exp">
+                        <span class="periode">2022 - 2024</span>
+                        <span class="desc">3e – Option Informatique</span>
+                    </li>
+                </ul>
+            </article>
+
+            <article>
+                <h2>Expériences professionnelles</h2>
+                <ul>
+                    <li class="exp">
+                        <span class="periode">2024 - 2025</span>
+                        <span class="desc"><strong>Électricité</strong><br>Service technique – Grenay</span>
+                    </li>
+                    <li class="exp">
+                        <span class="periode">2024 - 2025</span>
+                        <span class="desc"><strong>Électronique</strong><br>Entreprise de récupération – Liévin</span>
+                    </li>
+                    <li class="exp">
+                        <span class="periode">2023 - 2024</span>
+                        <span class="desc"><strong>Restauration scolaire</strong><br>Collège Langevin Wallon – Grenay</span>
+                    </li>
+                    <li class="exp">
+                        <span class="periode">2022 - 2023</span>
+                        <span class="desc"><strong>Stagiaire entretien et maintenance</strong><br>Collège Langevin Wallon – Grenay</span>
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#">Leurette Ethanael</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
